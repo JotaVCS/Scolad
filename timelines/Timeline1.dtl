@@ -19,12 +19,15 @@ update "Jack Nakamura" (Default)
 "Frederic Student": Como assim teu... encapuzadas?
 "Jack Nakamura" (Falando Surpreso): É! usando capuz indo pro fundo da escola
 update "Jack Nakamura" (Default)
-"Frederic Student": Como assim teu... encapuzadas?
-"Jack Nakamura" (Falando Surpreso): É! usando capuz indo pro fundo da escola
-update "Jack Nakamura" (Default)
 "Frederic Student": Ah... mas oque eles foram fazer?
 "Jack Nakamura" (Falando Surpreso): Não sei e nem quero saber vai que é uma ceita sei lá.
 update "Jack Nakamura" (Default)
 "Frederic Student": Que ceita home pelo amor(não sei nem oque é isso) mas finalmente alguma coisa interessante ta acontecendo nessa escola, eu vou descobrir oque é isso...
 "Jack Nakamura" (Falando Surpreso): Cê nem sabe oque é uma ceita né?
 update "Jack Nakamura" (Default)
+"Frederic Student": Não...
+update "Jack Nakamura" (Falando)
+Jack explica pra oq é uma ceita e o Fred fica com receio.
+- Ignorar e investigar sozinho
+- Deixar para lá
+	jump

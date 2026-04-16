@@ -28,7 +28,8 @@ directories/dch_directory={
 "Você": "res://personagens/Você.dch"
 }
 directories/dtl_directory={
-"Timeline1": "res://timelines/Timeline1.dtl"
+"Timeline1": "res://timelines/Timeline1.dtl",
+"final_1": "res://timelines/final_1.dtl"
 }
 layout/style_directory={
 "": "res://estilos/estilo1.tres",
