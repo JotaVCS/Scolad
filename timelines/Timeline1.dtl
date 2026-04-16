@@ -1,0 +1,30 @@
+[background arg="res://imagens/background/tela preta.png" fade="0.0"]
+O despertador toca e você tem que ir pra escola.
+Você grita\:
+Você: “Oh mãe!!!, posso faltar hoje?”
+Mãe: “Frederico Student, você já faltou ontem, hoje você vai nem que tu apanhe”
+"Frederic Student": “Droga...”
+[background arg="res://imagens/background/fora da escola.png" fade="0.5" wait="true"]
+Você, levemente decepcionado, vai para a escola num dia ensolarado...
+join "Jack Nakamura" center
+...e encontra com seu amigo Jackson Nakamura.
+"Jack Nakamura" (Falando): E aí Fred!
+update "Jack Nakamura" (Default)
+"Frederic Student": E aí Jack!
+"Jack Nakamura" (Falando): Ei! me falaram um negócio estranho.
+update "Jack Nakamura" (Default)
+"Frederic Student": Sai pra lá meu, tu sempre vem com essa e nunca é alguma coisa daora.
+"Jack Nakamura" (Falando): Me falaram que viram umas pessoas encapuzadas hoje indo pros fundos da escola.
+update "Jack Nakamura" (Default)
+"Frederic Student": Como assim teu... encapuzadas?
+"Jack Nakamura" (Falando Surpreso): É! usando capuz indo pro fundo da escola
+update "Jack Nakamura" (Default)
+"Frederic Student": Como assim teu... encapuzadas?
+"Jack Nakamura" (Falando Surpreso): É! usando capuz indo pro fundo da escola
+update "Jack Nakamura" (Default)
+"Frederic Student": Ah... mas oque eles foram fazer?
+"Jack Nakamura" (Falando Surpreso): Não sei e nem quero saber vai que é uma ceita sei lá.
+update "Jack Nakamura" (Default)
+"Frederic Student": Que ceita home pelo amor(não sei nem oque é isso) mas finalmente alguma coisa interessante ta acontecendo nessa escola, eu vou descobrir oque é isso...
+"Jack Nakamura" (Falando Surpreso): Cê nem sabe oque é uma ceita né?
+update "Jack Nakamura" (Default)
