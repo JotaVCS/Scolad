@@ -1,11 +1,11 @@
-[background arg="res://imagens/background/tela preta.png" fade="0.0"]
+[background arg="res://imagens/background/tela preta.jpg" fade="0.0"]
 O despertador toca e você tem que ir pra escola.
 Você grita\:
 Você: “Oh mãe!!!, posso faltar hoje?”
 Mãe: “Frederico Student, você já faltou ontem, hoje você vai nem que tu apanhe”
 "Frederic Student": “Droga...”
-[background arg="res://imagens/background/fora da escola.png" fade="0.5" wait="true"]
 Você, levemente decepcionado, vai para a escola num dia ensolarado...
+[background arg="res://imagens/background/Escola_Fora.webp" fade="1.0" wait="true"]
 join "Jack Nakamura" center
 ...e encontra com seu amigo Jackson Nakamura.
 "Jack Nakamura" (Falando): E aí Fred!
@@ -29,5 +29,6 @@ update "Jack Nakamura" (Default)
 update "Jack Nakamura" (Falando)
 Jack explica pra oq é uma ceita e o Fred fica com receio.
 - Ignorar e investigar sozinho
+	jump Timeline2/
 - Deixar para lá
-	jump
+	jump final_1/

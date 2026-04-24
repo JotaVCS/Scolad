@@ -1,0 +1,30 @@
+Escolha entre ir até o refeitório e perguntar pras pessoas oque elas sabem ou ir pra sala de algum professor e perguntar sobre algum tipo de ceita que pode estar acontecendo.
+- Ir ao refeitório
+- Ir para sala de um professor
+	jump Caminho sala do professor
+label Caminho sala do professor
+[background arg="res://imagens/background/Sala_Professores.webp" fade="0.0"]
+join "André Pelotas" (Normal) center
+Você vai até a sala do Professor André Pelotas e fala com ele.
+"Frederic Student": Salve professor André.
+update "André Pelotas" (Sorrindo Falando)
+"André Pelotas": Salve Fred, o que precisas?
+update "André Pelotas" (Normal)
+"Frederic Student": Então Sor, hoje quando cheguei na escola me contaram algo BIZARRO.
+update "André Pelotas" (Olhando sei la KKKKKKKKKKKKKKKk)
+"André Pelotas": Oxi, como assim bizarro Fred??? Mais estranho que prova surpresa na segunda-feira?
+update "André Pelotas" (Normal)
+"Frederic Student": Me falaram de pessoas encapuzadas andando pela escola.
+update "André Pelotas" (Sorrindo Falando)
+"André Pelotas": Fred vai pra aula, já está na hora, e não acredite em tudo que ouve por aí.
+leave "André Pelotas"
+Você, inconformado, decide voltar para a sala.
+[background arg="res://imagens/background/Sala_VisaoAluno.webp" fade="0.0"]
+O sinal toca e a primeira aula começa...
+...que é de Geografia.
+join "Walter World" (Entregando a Folha) center [animation="Fade In Up" length="1.0"]
+Chegando na aula o professor Walter World te entrega uma folha de exercícios para testar o conhecimento dos alunos.
+leave "Walter World" [animation="Fade Out Down" length="1.0" wait="true"]
+[background arg="res://imagens/background/tela preta.jpg" fade="0.5" wait="true"]
+[wait time="1.0"]
+[background arg="res://imagens/background/Sala_VisaoAluno.webp" fade="0.5" wait="true"]

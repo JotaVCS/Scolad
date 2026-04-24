@@ -22,13 +22,16 @@ Dialogic="*uid://ds2q0uclmolvu"
 [dialogic]
 
 directories/dch_directory={
-"Frederic Student": "res://personagens/Frederic Student.dch",
-"Jack Nakamura": "res://personagens/Jack Nakamura.dch",
-"Mãe": "res://personagens/Mãe.dch",
-"Você": "res://personagens/Você.dch"
+"André Pelotas": "res://personagens/professores/André Pelotas.dch",
+"Frederic Student": "res://personagens/alunos/Frederic Student.dch",
+"Jack Nakamura": "res://personagens/alunos/Jack Nakamura.dch",
+"Mãe": "res://personagens/pers de controle/Mãe.dch",
+"Você": "res://personagens/pers de controle/Você.dch",
+"Walter World": "res://personagens/professores/Walter World.dch"
 }
 directories/dtl_directory={
 "Timeline1": "res://timelines/Timeline1.dtl",
+"Timeline2": "res://timelines/Timeline2.dtl",
 "final_1": "res://timelines/final_1.dtl"
 }
 layout/style_directory={
