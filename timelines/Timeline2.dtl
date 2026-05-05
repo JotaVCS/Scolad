@@ -1,9 +1,10 @@
-Escolha entre ir até o refeitório e perguntar pras pessoas oque elas sabem ou ir pra sala de algum professor e perguntar sobre algum tipo de ceita que pode estar acontecendo.
+Escolha entre ir até o refeitório e perguntar pras pessoas o que elas sabem ou ir pra sala de algum professor e perguntar sobre alguma movimentação estranha no local.
 - Ir ao refeitório
+	jump Caminho refeitório
 - Ir para sala de um professor
 	jump Caminho sala do professor
 label Caminho sala do professor
-[background arg="res://imagens/background/Sala_Professores.webp" fade="0.0"]
+[background arg="res://imagens/background/salaProfessor/Sala_Professores.webp" fade="0.0"]
 join "André Pelotas" (Normal) center
 Você vai até a sala do Professor André Pelotas e fala com ele.
 "Frederic Student": Salve professor André.
@@ -19,12 +20,85 @@ update "André Pelotas" (Sorrindo Falando)
 "André Pelotas": Fred vai pra aula, já está na hora, e não acredite em tudo que ouve por aí.
 leave "André Pelotas"
 Você, inconformado, decide voltar para a sala.
-[background arg="res://imagens/background/Sala_VisaoAluno.webp" fade="0.0"]
-O sinal toca e a primeira aula começa...
+jump Volta pra sala
+label Caminho refeitório
+[background arg="res://imagens/background/locaisAdversos/Refeitório.webp" fade="1.0" wait="true"]
+Ainda pensativo sobre o que Jack lhe contara, você vai ao refeitorio e encontra Pedro Machado e Henrique Carvalho.
+Fazendo seu toque simbólico...
+join "Pedro e Henrique" center [animation="Bounce In" wait="true"]
+"Pedro e Henrique": E aíi Fred
+leave "Pedro e Henrique" [animation="Fade Out" wait="true"]
+join Pedro (Normal) left [animation="Fade In" length="1.5"]
+join Henrique (Normal) right [animation="Fade In" length="1.5"]
+[wait time="1.0"]
+Pedro (Falando Normal): Ei Fred tá me escutando? O que cê tá fazendo aí? tá pensado na morte da bezerra?
+update Pedro (Normal)
+Henrique (Falando): Tá viajando aí?
+update Henrique (Normal)
+"Frederic Student": To viajando aqui...
+"Frederic Student": Vocês ficaram sabendo dos rumores dos encapuzados?
+Henrique (Surpreso): Vish! Tá viajando mesmo!
+Henrique (Falando): [i]Cê[/i] ouviu Pedro?
+update Henrique (Normal)
+Pedro (Coçando): Não ouvi não, o que é isso?
+update Pedro (Normal)
+Falar sobre “Os encapuzados” ou não?
+- Sim
+	"Frederic Student": Man eles são um grupo que foi visto indo pro fundo da escola.
+	"Frederic Student": Eles tavam encapuzados não dava pra ver quem era e nem se tavam carregando alguma coisa.
+	Pedro (Falando Normal): Eu e o Henrique escutamos algo assim perto do banheiro masculino na saída pro intervalo...
+	update Pedro (Normal)
+	Henrique (Falando): Verdade, mas não deve ser nada demais.
+	update Henrique (Normal)
+	"Frederic Student": Show, se descobrirem algo a mais, me falem.
+	leave Henrique [animation="Fade Out"]
+	leave Pedro [animation="Fade Out" wait="true"]
+	join "Pedro e Henrique" center [animation="Fade In"]
+	"Pedro e Henrique": Beleza, tamo junto Lek!
+	leave "Pedro e Henrique" [animation="Fade Out" wait="true"]
+	Antes de ir para a aula, Fred decide dar uma olhada perto dos banheiros mencionados por Pedro e Henrique.
+	[background arg="res://imagens/background/banheiro/5.JPG" fade="0.5" wait="true"]
+	Perto do banheiro masculino ele sentiu um cheiro de bom ar.
+	Ao entrar para ver oque era, ele acaba por entrar dentro de uma cabine do banheiro da onde vinha o cheiro...
+	[background arg="res://imagens/background/banheiro/20.JPG" fade="0.5" wait="true"]
+	[wait time="3.0"]
+	[b]Alguém entra!
+	[background arg="res://imagens/background/banheiro/15.JPG" fade="0.0"]
+	audio -
+	[wait time="3.0"]
+	audio -
+	[background arg="res://imagens/background/banheiro/24.JPG" fade="0.0"]
+	Fred fica quieto e tenta escutar algo.
+	audio -
+	*Vozes*
+	[wait time="1.0" hide_text="false"]
+	audio -
+	A fala acaba.
+	[wait time="1.0" hide_text="false"]
+	audio -
+	*Som de [b]Bom Ar[/b]*
+	[wait time="1.0"]
+	[background arg="res://imagens/background/banheiro/1.JPG" fade="1.0" wait="true"]
+	Fred saindo do banheiro não consegue identificar qual era o professor, mas conseguiste escutar algo sobre [b]Os Encapuzados[/b].
+	"Frederic Student": Bah, algum professor sabe de alguma coisa, preciso descobrir quem é!
+	"Frederic Student": Mas por enquanto é melhor voltar para a sala.
+- Não
+	"Frederic Student": Ah... esquece. Eu acho que to viajando muito mesmo...
+	Pedro (Falando Normal): Cê tem que se tratar brother! Tá toda hora morgando aí pelos canto.
+	update Pedro (Normal)
+	Henrique (Falando): Papo reto Pedro! Mas enfim, ta quase na hora da aula, vambora logo! Não quero que a Tânia me dê um sermão de 30 minutos sobre eu ter me atrasado.
+	update Henrique (Normal)
+	leave Pedro
+	leave Henrique
+label Volta pra sala
+[background arg="res://imagens/background/salaAluno/Sala_VisaoAluno.webp" fade="1.0" wait="true"]
+audio -
+*O sinal toca*
+E a primeira aula começa...
 ...que é de Geografia.
 join "Walter World" (Entregando a Folha) center [animation="Fade In Up" length="1.0"]
 Chegando na aula o professor Walter World te entrega uma folha de exercícios para testar o conhecimento dos alunos.
 leave "Walter World" [animation="Fade Out Down" length="1.0" wait="true"]
 [background arg="res://imagens/background/tela preta.jpg" fade="0.5" wait="true"]
 [wait time="1.0"]
-[background arg="res://imagens/background/Sala_VisaoAluno.webp" fade="0.5" wait="true"]
+jump Timeline3/

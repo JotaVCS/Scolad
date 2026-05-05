@@ -4,30 +4,35 @@ Você grita\:
 Você: “Oh mãe!!!, posso faltar hoje?”
 Mãe: “Frederico Student, você já faltou ontem, hoje você vai nem que tu apanhe”
 "Frederic Student": “Droga...”
+[background arg="res://imagens/background/locaisAdversos/Escola_Fora.webp" fade="1.0" wait="true"]
 Você, levemente decepcionado, vai para a escola num dia ensolarado...
-[background arg="res://imagens/background/Escola_Fora.webp" fade="1.0" wait="true"]
-join "Jack Nakamura" center
-...e encontra com seu amigo Jackson Nakamura.
-"Jack Nakamura" (Falando): E aí Fred!
-update "Jack Nakamura" (Default)
+audio music "res://sons/trilha sonora/trilha-sonora.mp3" [volume="-1.6"]
+[wait time="1.0"]
+[background arg="res://imagens/background/locaisAdversos/Corredor.webp" fade="0.0"]
+Ao chegar no corredor, encontra seu amigo Jackson Nakamura
+join "Jack Nakamura" (Bernardo Idle) center
+"Jack Nakamura" (Bernardo Falando): E aí Fred!
+update "Jack Nakamura" (Bernardo Idle)
 "Frederic Student": E aí Jack!
-"Jack Nakamura" (Falando): Ei! me falaram um negócio estranho.
-update "Jack Nakamura" (Default)
+"Jack Nakamura" (Bernardo Falando): Ei! me falaram um negócio estranho.
+update "Jack Nakamura" (Bernardo Idle)
 "Frederic Student": Sai pra lá meu, tu sempre vem com essa e nunca é alguma coisa daora.
-"Jack Nakamura" (Falando): Me falaram que viram umas pessoas encapuzadas hoje indo pros fundos da escola.
-update "Jack Nakamura" (Default)
+"Jack Nakamura" (Bernardo Falando): Me falaram que viram umas pessoas encapuzadas hoje indo pros fundos da escola.
+update "Jack Nakamura" (Bernardo Idle)
 "Frederic Student": Como assim teu... encapuzadas?
-"Jack Nakamura" (Falando Surpreso): É! usando capuz indo pro fundo da escola
-update "Jack Nakamura" (Default)
+"Jack Nakamura" (Bernardo Surpreso): É! usando capuz indo pro fundo da escola
+update "Jack Nakamura" (Bernardo Idle)
 "Frederic Student": Ah... mas oque eles foram fazer?
-"Jack Nakamura" (Falando Surpreso): Não sei e nem quero saber vai que é uma ceita sei lá.
-update "Jack Nakamura" (Default)
+"Jack Nakamura" (Bernardo Falando): Não sei e nem quero saber vai que é uma ceita sei lá.
+update "Jack Nakamura" (Bernardo Idle)
 "Frederic Student": Que ceita home pelo amor(não sei nem oque é isso) mas finalmente alguma coisa interessante ta acontecendo nessa escola, eu vou descobrir oque é isso...
-"Jack Nakamura" (Falando Surpreso): Cê nem sabe oque é uma ceita né?
-update "Jack Nakamura" (Default)
+"Jack Nakamura" (Bernardo Falando): Cê nem sabe oque é uma ceita né?
+update "Jack Nakamura" (Bernardo Idle)
 "Frederic Student": Não...
-update "Jack Nakamura" (Falando)
+update "Jack Nakamura" (Bernardo Falando)
+[wait time="2.0"]
 Jack explica pra oq é uma ceita e o Fred fica com receio.
+leave "Jack Nakamura"
 - Ignorar e investigar sozinho
 	jump Timeline2/
 - Deixar para lá

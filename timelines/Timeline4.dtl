@@ -1,0 +1,68 @@
+[background arg="res://imagens/background/salaAluno/Sala_VisaoAluno.webp" fade="1.0" wait="true"]
+join "Tânia Antique" (Recebendo) center
+Você entrega prova e Tânia nem olha pra você.
+leave "Tânia Antique"
+Você volta a pensar sobre “Os encapuzados” e pensa em falar com algum professor sobre isso, mas qual?
+Talvez Anderson Livros (Língua Portuguesa) ou Marta Quadros (Artes).
+- Anderson Livros
+	[background arg="res://imagens/background/salaProfessor/Sala_Professores.webp" fade="1.0" wait="true"]
+	join "Anderson Livros" center
+	"Anderson Livros" (?): Esse tal de “Os encapuzados” é uma gangue de arrocha?
+	"Anderson Livros" (Pra cima): Vai pra cima deles rapaz.
+	leave "Anderson Livros"
+- Marta Quadros
+	[background arg="res://imagens/background/fotos camera/DSC_4353.JPG" fade="1.0" wait="true"]
+	join "Marta Quadros" center
+	"Marta Quadros": Os encapuzados” seria um ótimo nome pra uma obra de arte
+	leave "Anderson Livros"
+Depois dessa conversa você ganha mais confiança para ir no fundo da escola mas ainda fica com um pé atrás.
+leave "Marta Quadros"
+leave "Anderson Livros"
+- Ir aos fundos da escola denovo
+	[background arg="res://imagens/background/tela preta.jpg" fade="1.0" wait="true"]
+	Mesmo com um pouco de medo você decide ir nos fundo da escola.
+	[wait time="3.5"]
+	Fred se depara com “Os encapuzados”!!!
+	[background arg="res://imagens/background/final da fuga/DSC_4466.JPG" fade="1.0" transition="Push Right" wait="true"]
+	Eles eram um grupo de viciados que correm atrás de Fred!
+	[background arg="res://imagens/background/final da fuga/DSC_4467.JPG" fade="1.0" transition="Push Right" wait="true"]
+	RÁPIDO FRED! PARA DENTRO DA ESCOLA!!!
+	[background arg="res://imagens/background/tela preta.jpg" fade="1.0" transition="Simple Fade" wait="true"]
+	Como Fred sempre treina corrida nas aulas de André Pelotas, subjulga seus perseguidores na corrida e chega com segurança para dentro da Escola.
+	Anderson Livros que estava por perto, ajudou a proteger Fred e chamou a polícia.
+	Os encapuzados são presos e colocados sob investigação da polícia.
+	Apartir dali, Fred segue com sua vida no terceirão, levando para sua formatura uma história pra contar, pra rir na companhia de seus amigos.
+	Fim
+	[wait time="5.0" hide_text="false"]
+	[signal arg="fim"]
+- Investigar um pouco mais
+	[background arg="res://imagens/background/fotos camera/DSC_4347.JPG" fade="1.0" wait="true"]
+	Você não tem coragem de ir lá ainda e decide investigar mais.
+	audio -
+	Sinal bate e outra aula começa...
+	[background arg="res://imagens/background/salaAluno/Sala_VisaoAluno.webp" fade="1.0" wait="true"]
+	join "Newton Cerebro" center
+	Você chega na sala e Newton Cérebro, seu professor de física está com folhas nas mãos.
+	"Frederic Student": "Mais exercícios?Eu não aguento maaaaaaiiis!!!"
+	leave "Newton Cerebro"
+	Infelizmente Newton tinha em mãos uma lista de exercício para prática e revisão antes da sua avalição da semana que vem.
+	[background arg="res://imagens/background/tela preta.jpg" fade="1.0" wait="true"]
+	[wait time="2.0"]
+	[background arg="res://imagens/background/salaAluno/Sala_VisaoAluno.webp" fade="1.0" wait="true"]
+	Quando se dá por conta, está na hora de ir embora.
+	Cabe a você decidir.
+	- Ir embora
+		[background arg="res://imagens/background/locaisAdversos/videogame.JPG" fade="1.0" wait="true"]
+		Você decide voltar para casa e descansar ao conforto de seu videogame.
+		Nos dias seguintes, você nunca mais escuta sobre "Os Encapuzados"
+		[background arg="res://imagens/background/tela preta.jpg" fade="1.0" wait="true"]
+		Você termina o Ensino Médio com essa história engraçada para contar para seus amigos.
+		[signal arg="fim"]
+	- Ir aos fundos da escola
+		[background arg="res://imagens/background/quadra/Quadra_Fora.webp" fade="1.0" wait="true"]
+		Fred chega nos fundos da escola e acha um circulo formado por gramas amassadas
+		"Frederic Student": Devem só ter perdido uma bola por aqui e vieram procurar...
+		[background arg="res://imagens/background/tela preta.jpg" fade="1.0" wait="true"]
+		"Frederic Student": Fim...
+		[wait time="2.0"]
+		[signal arg="fim"]

@@ -1,0 +1,5 @@
+[background arg="res://imagens/background/tela preta.jpg" fade="1.0" wait="true"]
+audio music -
+Domado pela insegurança, você decide não investigar sobre. E da mesma forma intediante, segue o caminho até o fim do ano letivo.
+Que decepcionante...
+[signal arg="fim"]

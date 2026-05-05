@@ -23,6 +23,5 @@ Jack explica pra oq é uma ceita e o Fred fica com receio.
 
 Escolha entre ignorar e investigar sozinho ou deixar pra lá
 
-Ignorar e investigar, escolha entre ir até o refeitório e perguntar pras
-pessoas oque elas sabem ou ir pra sala de algum professor e perguntar 
+Ignorar e investigar, escolha entre ir até o refeitório e perguntar para algum aluno ou ir pra sala de algum professor e perguntar 
 sobre algum tipo de ceita que pode estar acontecendo

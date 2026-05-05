@@ -1,0 +1,40 @@
+[background arg="res://imagens/background/salaAluno/Sala_VisaoAluno.webp" fade="1.0" wait="true"]
+join "Walter World" (Recebendo a Folha) center [animation="Fade In" wait="true"]
+Terminada a aula você entrega a folha de exercícios, o professor pega da uma olhada com olhar de julgamento e coloca em sua pasta.
+leave "Walter World" [animation="Fade Out" length="1.0" wait="true"]
+Você continua pensando sobre o que você decide chamar de "Os Encapuzados", e pensa em ir para a quadra em busca de informações ou verificar atrás da escola.
+- Buscar informações
+	label Caminho_Quadra
+	"Frederic Student": Vou ir analisar lá pela área da quadra
+	[background arg="res://imagens/background/quadra/Quadra_Dentro.webp" fade="1.0" wait="true"]
+	Você está chegando na quadra escuta sons estranhos.
+	audio -
+	Se aproxima sorrateiramente do fundo da quadra mas não parece ser nada.
+	Alunos começam a chegar para ter sua aula de Educação Física.
+	Você disfarça e sai de fininho para não parecer estranho.
+- Verificar atrás da escola
+	label Caminho_AtrasEscola
+	"Frederic Student": ”Bah... Tou pensando muito que pode haver alguma coisa atrás da escola
+	[background arg="res://imagens/background/tela preta.jpg" fade="1.0" wait="true"]
+	[wait time="1.0"]
+	[background arg="res://imagens/background/encapuzados/DSC_4440.JPG" fade="1.0" wait="true"]
+	Chegando atrás da escola, Fred vê duas pessoas encapuzadas.
+	Ele decide ficar meio distantes para tentar vigiar eles.
+	Mas ao tentar escutar...
+	audio -
+	[background arg="res://imagens/background/encapuzados/DSC_4445.JPG" fade="0.5"]
+	...Fred derruba uma garrafa Pet.
+	Logo os encapuzados viram para ele.
+	Com o que parece ser um canivete e um papel na mão.
+	[background arg="res://imagens/background/tela preta.jpg" fade="0.0"]
+	Fred consegue fugir sem ser visto.
+[background arg="res://imagens/background/fotos camera/DSC_4349.JPG" fade="1.0" wait="true"]
+Após isso, você não tem certeza se deveria seguir com essa investigação e decide voltar para a sala de aula
+[background arg="res://imagens/background/salaAluno/Sala_VisaoAluno.webp" fade="1.0" wait="true"]
+join "Tânia Antique" (Entregando) center
+Chegando na sala você descobre que Tânia Antique (sua professora de História) acordou de mau humor e decidiu aplicar uma prova surpresa.
+leave "Tânia Antique" [length="1.0" wait="true"]
+Você se depara com 10 questões de História.
+[background arg="res://imagens/background/tela preta.jpg" fade="1.0" wait="true"]
+[wait time="3.0"]
+jump Timeline4/

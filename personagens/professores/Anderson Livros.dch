@@ -1,0 +1,58 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+&"_translation_id": "",
+&"color": Color(1, 1, 1, 1),
+&"custom_info": {
+"prefix": "",
+"sound_mood_default": "",
+"sound_moods": {},
+"style": "",
+"suffix": ""
+},
+&"default_portrait": "?",
+&"description": "",
+&"display_name": "Anderson Livros",
+&"mirror": false,
+&"nicknames": [""],
+&"offset": Vector2(0, 0),
+&"portraits": {
+"20260331 094327": {
+"export_overrides": {
+"image": "\"res://imagens/personagens/Professores/Anderson Livros/20260331_094327.webp\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"20260331 094347(2)": {
+"export_overrides": {
+"image": "\"res://imagens/personagens/Professores/Anderson Livros/20260331_094347(2).webp\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"?": {
+"export_overrides": {
+"image": "\"res://imagens/personagens/Professores/Anderson Livros/20260331_094343(0).webp\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Pra cima": {
+"export_overrides": {
+"image": "\"res://imagens/personagens/Professores/Anderson Livros/20260331_094339(0).webp\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
+&"scale": 1.0
+}

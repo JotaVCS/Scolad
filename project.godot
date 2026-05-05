@@ -22,17 +22,26 @@ Dialogic="*uid://ds2q0uclmolvu"
 [dialogic]
 
 directories/dch_directory={
+"Anderson Livros": "res://personagens/professores/Anderson Livros.dch",
 "André Pelotas": "res://personagens/professores/André Pelotas.dch",
 "Frederic Student": "res://personagens/alunos/Frederic Student.dch",
+"Henrique": "res://personagens/alunos/Henrique.dch",
 "Jack Nakamura": "res://personagens/alunos/Jack Nakamura.dch",
+"Marta Quadros": "res://personagens/professores/Marta Quadros.dch",
 "Mãe": "res://personagens/pers de controle/Mãe.dch",
+"Newton Cerebro": "res://personagens/professores/Newton Cerebro.dch",
+"Pedro": "res://personagens/alunos/Pedro.dch",
+"Pedro e Henrique": "res://personagens/alunos/Pedro e Henrique.dch",
+"Tânia Antique": "res://personagens/professores/Tânia Antique.dch",
 "Você": "res://personagens/pers de controle/Você.dch",
 "Walter World": "res://personagens/professores/Walter World.dch"
 }
 directories/dtl_directory={
 "Timeline1": "res://timelines/Timeline1.dtl",
 "Timeline2": "res://timelines/Timeline2.dtl",
-"final_1": "res://timelines/final_1.dtl"
+"Timeline3": "res://timelines/Timeline3.dtl",
+"Timeline4": "res://timelines/Timeline4.dtl",
+"final_1": "res://timelines/finais/final_1.dtl"
 }
 layout/style_directory={
 "": "res://estilos/estilo1.tres",
@@ -72,6 +81,8 @@ audio/channel_defaults={
 "volume": 0.0
 }
 }
+variables={}
+glossary/default_case_sensitive=true
 
 [display]
 
@@ -110,3 +121,4 @@ dialogic_default_action={
 rendering_device/driver.windows="d3d12"
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true

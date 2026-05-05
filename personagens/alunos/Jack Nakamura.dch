@@ -10,34 +10,34 @@
 "style": "estilo1",
 "suffix": ""
 },
-&"default_portrait": "Default",
+&"default_portrait": "Bernardo Idle",
 &"description": "",
 &"display_name": "Jack Nakamura",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {
-"Default": {
+"Bernardo Falando": {
 "export_overrides": {
-"image": "\"res://imagens/personagens/Jack Nakamura/Bernardo Editado.png\""
+"image": "\"res://imagens/personagens/Alunos/Jack Nakamura/1.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""
 },
-"Falando": {
+"Bernardo Idle": {
 "export_overrides": {
-"image": "\"res://imagens/personagens/Jack Nakamura/Bernardo falando.png\""
+"image": "\"res://imagens/personagens/Alunos/Jack Nakamura/3.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
-"scale": 1,
+"scale": 1.0,
 "scene": ""
 },
-"Falando Surpreso": {
+"Bernardo Surpreso": {
 "export_overrides": {
-"image": "\"res://imagens/personagens/Jack Nakamura/Gemini_Generated_Image_jp7dnjjp7dnjjp7d.png\""
+"image": "\"res://imagens/personagens/Alunos/Jack Nakamura/2.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
@@ -45,5 +45,5 @@
 "scene": ""
 }
 },
-&"scale": 1.0
+&"scale": 0.9
 }

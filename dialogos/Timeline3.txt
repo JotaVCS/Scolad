@@ -1,0 +1,80 @@
+Fred:”Vou ir analisar lá pela área da quadra.”
+Pedro:”Ei Fred!”
+
+Você está chegando na quadra escuta sons estranhos, se aproxima sorrateiramente e ve 
+2 professores com sacos, mas não consegue indentificar quem 
+são nem o que carregam.  Pessoas começam a chegar você disfarça e sai de fininho
+
+
+
+
+Fred:”Bah... Tou pensando muito que pode haver alguma coisa atrás da escola”
+Pedro:”Ei Fred!”
+
+Fred decide ir para trás da escola dar uma olhada no que tinha lá. Chegando atrás da escola, 
+ele vê duas pessoas encapuzadas, e decide ficar meio distantes para tentar
+vigiar eles, mas ao tentar escutar, ele acaba derrubando uma 
+garrafa pet, logo os encapuzados viram para ele com um 
+canivete e um papel na mão, então o Fred corre antes de ser visto.
+
+
+Depois de ver o que viu, você não tem certeza se deveria seguir com essa investigação. 
+Depois de refletir um pouco sobre isso Henrique Carvalho
+ e Pedro Machado vão conversar com você e chegam fazendo seu toque simbólico.
+
+Pedro: “Ei Fred tá me escutando? O que cê tá fazendo aí? tá pensado na morte da bezerra?”
+Henrique:”Tá viajando aí?”
+Fred:”To viajando aqui... Vocês ficaram sabendo dos rumores dos encapuzados?”
+Henrique:”Vish ta viajando mesmo, cê ouviu Pedro”
+Pedro:”Não ouvi não o que é isso?” 
+
+
+Falar sobre “Os encapuzados” ou não.
+
+Sim
+{
+	Fred:”Man eles são um grupo que foi visto indo pro fundo da escola, sinistro, 
+	eles tavam encapuzados não dava pra ver quem era e nem se tavam carregando alguma coisa.”
+Pedro:”Seloko doidera isso, mas se eu ouvir alguma coisa te falo blz?”
+Henrique:”Oloko, mó viajem isso daí, mas bora logo pra sala que ta quase 
+na hora de bater e não to afim de me atrasar logo pra aula da Tânia.”
+}
+
+Não
+{
+	Fred:”Ah... esquece, eu acho que to viajando muito mesmo...”
+Pedro:”Cê tem que se tratar brother ta toda hora morgando aí pelos canto.”
+Henrique:”Papo reto Pedro, mas enfim ta quase na hora da aula vambora logo, 
+não quero que a xarope da Tânia ficar falando por 30 minutos sobre eu ter me atrasado.” 
+	
+}
+________
+
+Quando Henrique fecha a boca o sinal bate e ele diz:
+Henrique:”seloko na hora, farmei aura agora.”.
+e vocês três saem correndo pra sala.
+
+Chegando na sala você descobre que Tânia Antique (sua professora de História) 
+acordou de mau humor, e no auge da armagura
+decidiu aplicar uma prova surpresa. Você se depara com 10 questões de História.
+
+Você entrega prova e Tânia nem olha pra você.
+
+Você volta a pensar sobre “Os encapuzados” e pensa em falar com algum professor sobre isso, mas qual?
+talvez Anderson ou Marta.
+
+Anderson:” Esse tal de “Os encapuzados” é uma gangue de arrocha? Vai pra cima deles rapaz.”
+
+Marta:” ”Os encapuzados” seria um ótimo nome pra uma obra de arte.”
+
+
+Depois dessa conversa você ganha mais confiança 
+para ir no fundo da escola mas ainda fica com um pé atrás.
+
+{
+	Mesmo com um pouco de medo você decide ir nos fundo da escola
+	2° final:
+Fred se depara com “Os encapuzados” , e eles eram um grupo de viciados que correm atrás de Fred, 
+mas como você é rápido, 
+consegue correr pra dentro da escola e fala com a diretora e ela chama a policia. 
+}

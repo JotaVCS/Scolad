@@ -1,0 +1,31 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+&"_translation_id": "",
+&"color": Color(1, 1, 1, 1),
+&"custom_info": {
+"prefix": "",
+"sound_mood_default": "",
+"sound_moods": {},
+"style": "",
+"suffix": ""
+},
+&"default_portrait": "Oi",
+&"description": "",
+&"display_name": "Pedro E Henrique",
+&"mirror": false,
+&"nicknames": [""],
+&"offset": Vector2(0, 250),
+&"portraits": {
+"Oi": {
+"export_overrides": {
+"image": "\"res://imagens/personagens/Alunos/Pedro e Henrique/oi.webp\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
+&"scale": 1.5
+}
